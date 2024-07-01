@@ -1,0 +1,197 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body{
+    display:block;
+}
+#first-navbar
+{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.menu
+{
+    color:#D7D005;
+    font-size: 20px;
+    font-family: "open sans";
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 5rem;
+    min-height: 1px;
+}
+li{
+    padding: 15px;
+}
+a{
+    text-decoration: none;
+}
+.nav
+{
+    margin-top: 25px;
+    line-height: 25px;
+    background: #fff;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.nav li a {
+    color: black;
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none; /* Optionally, if you want to remove underline */
+  }
+.dropdown-menu {
+    display: none; /* Hide the dropdown menu by default */
+}
+
+.page-header-background
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("header-bg.jpg");
+    background-size: cover;
+    height:220px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.page-header-path
+{
+    font-size: 25px;
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-left: 150px;
+    margin-top: 20px;
+    align-items: center;
+}
+.page-header-path a{
+    margin-right: 10px;
+}
+.page-header-path p{
+    margin: 0 10px 0 0;
+    color:white;
+    font-weight: bold;
+}
+#home-page
+{
+    color:white;
+}
+#signup-page
+{
+    color:red
+}
+.page-header-heading h1
+{
+    color:white;
+    font-size: 50px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 20px;
+  } */
+
+  
+.signupform
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  form {
+    margin-top: 30px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px; /* Increased width */
+    margin-bottom: 80px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 0; /* Added margin-top to move the heading to the top */
+    font-size: 35px;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"],
+  select {
+    width: calc(100% - 20px); /* Adjusted width to account for padding */
+    padding: 12px; /* Increased padding */
+    margin-bottom: 20px; /* Increased margin-bottom */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+    background-color:rgb(212, 212, 212);
+    color:black;
+    padding: 15px; /* Increased padding */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color:#07273B;
+    color:white;
+  }
+
+  .form-group {
+    margin-bottom: 25px; /* Increased margin-bottom */
+  }
+
+
+
+#copyright {
+    background: #07273b;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer{
+    background-color: #07273B;
+    position: fixed;
+    width: 100%;
+    color:white;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:20px;
+    font-size: 20px;
+    bottom: 0;
+}
